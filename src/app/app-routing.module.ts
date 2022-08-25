@@ -20,12 +20,12 @@ const routes: Routes = [
     component: RegisterPageComponent
   },
   {
-    path: "**",
-    component: NotFoundPageComponent
-  },
-  {
     path: "private",
     component: PrivadoPageComponent
+  },
+  {
+    path: "**",
+    component: NotFoundPageComponent
   }
 ];
 
